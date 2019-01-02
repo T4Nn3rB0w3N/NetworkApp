@@ -16,7 +16,32 @@
                     <view key="view" contentMode="scaleToFill" id="PiI-jc-mnB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" horizontalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xXS-NE-6Hq">
+                                <rect key="frame" x="0.0" y="437" width="375" height="128"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="i0N-YS-dE5"/>
+                                </constraints>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFF-5F-g2d">
+                                <rect key="frame" x="166" y="91" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eFF-5F-g2d" firstAttribute="top" secondItem="WHv-ap-eRO" secondAttribute="top" constant="201" id="FbN-5d-Sq1"/>
+                            <constraint firstItem="xXS-NE-6Hq" firstAttribute="leading" secondItem="PiI-jc-mnB" secondAttribute="leading" id="GMt-9q-q0f"/>
+                            <constraint firstAttribute="trailing" secondItem="xXS-NE-6Hq" secondAttribute="trailing" id="TFf-EO-N7J"/>
+                            <constraint firstItem="eFF-5F-g2d" firstAttribute="leading" secondItem="WHv-ap-eRO" secondAttribute="leading" constant="166" id="m8Y-VM-5Kw"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="WHv-ap-eRO"/>
                     </view>
                     <navigationItem key="navigationItem" id="PfX-u2-ot7"/>
