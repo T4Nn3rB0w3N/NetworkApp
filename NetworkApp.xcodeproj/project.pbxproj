@@ -10,7 +10,6 @@
 		2C78989D21C4069A00A85CC9 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78989C21C4069A00A85CC9 /* InternetDetailViewController.swift */; };
 		2C78989F21C40C3200A85CC9 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78989E21C40C3200A85CC9 /* InternetMasterViewController.swift */; };
 		2CFF127E21C1709800B6C8AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFF127D21C1709800B6C8AC /* AppDelegate.swift */; };
-		2CFF128021C1709800B6C8AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFF127F21C1709800B6C8AC /* ViewController.swift */; };
 		2CFF128321C1709800B6C8AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFF128121C1709800B6C8AC /* Main.storyboard */; };
 		2CFF128521C1709900B6C8AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFF128421C1709900B6C8AC /* Assets.xcassets */; };
 		2CFF128821C1709900B6C8AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFF128621C1709900B6C8AC /* LaunchScreen.storyboard */; };
@@ -22,7 +21,6 @@
 		2C78989E21C40C3200A85CC9 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		2CFF127A21C1709800B6C8AC /* NetworkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFF127D21C1709800B6C8AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CFF127F21C1709800B6C8AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CFF128221C1709800B6C8AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CFF128421C1709900B6C8AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CFF128721C1709900B6C8AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 		2CFF129021C170AD00B6C8AC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2CFF127F21C1709800B6C8AC /* ViewController.swift */,
 				2C78989C21C4069A00A85CC9 /* InternetDetailViewController.swift */,
 				2C78989E21C40C3200A85CC9 /* InternetMasterViewController.swift */,
 			);
@@ -169,7 +166,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CFF128021C1709800B6C8AC /* ViewController.swift in Sources */,
 				2C78989F21C40C3200A85CC9 /* InternetMasterViewController.swift in Sources */,
 				2C78989D21C4069A00A85CC9 /* InternetDetailViewController.swift in Sources */,
 				2CFF127E21C1709800B6C8AC /* AppDelegate.swift in Sources */,
